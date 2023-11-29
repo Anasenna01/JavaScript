@@ -33,5 +33,3 @@ Material público para o ensino básico de JavaScript para alunos iniciantes.
     </td>
   </tr>
 </table>
-
-<img src="img/mascote.png" align="right" width="300">
