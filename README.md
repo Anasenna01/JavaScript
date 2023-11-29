@@ -15,7 +15,8 @@ Material público para o ensino básico de JavaScript para alunos iniciantes.
       </a>
     </td>
   </tr>
-
+</table>
+<table>
   <tr>
     <td align="right">
       <a href="https://github.com/Anasenna01">
@@ -26,6 +27,5 @@ Material público para o ensino básico de JavaScript para alunos iniciantes.
       </a>
     </td>
   </tr>
-</table>
-
+</table>>
 
