@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 07</title>
+</head>
+<body>
+    <h1>Calcule a sua média</h1>
+    <button onclick="media()">Iniciar</button>
+
+    <section id="res">O resultado vai aparecer aqui:</section>
+
+    <script>
+        function media(){
+            let nome = window.prompt('Digite aqui seu nome')
+            let n1 = Number(window.prompt('Digite a sua primeira nota'))
+            let n2 = Number(window.prompt('Digite a sua segunda nota'))
+            media = (n1+n2)/2 
+
+            let res = document.getElementById('res')
+
+            res.innerHTML = `Calculando a sua média ${nome}!`
+            res.innerHTML += `Suas notas obtidas foram ${n1} e ${n2}` 
+            res.innerHTML += `Sua média é ${media}`
+        }
+    </script>
+</body>
+</html>
