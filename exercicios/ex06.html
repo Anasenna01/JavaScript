@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 06</title>
+</head>
+<body>
+    <h1>Teste</h1>
+    <button onclick="teste()">Iniciar teste :0</button>
+    <section id="res">
+        <p>Resultado da soma é...</p>
+    </section>
+
+    <script>
+        function teste(){
+            let n1 = Number(window.prompt('Digite um número:'))
+            let n2 = Number(window.prompt('Digite outro número:'))
+            soma = n1+n2
+
+            let res = document.querySelector('section#res')
+            res.innerHTML = `A soma do número ${n1} e do múmero ${n2} é ${soma}.`
+        }
+    </script>
+    
+</body>
+</html>
