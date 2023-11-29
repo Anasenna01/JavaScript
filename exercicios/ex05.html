@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 05</title>
+</head>
+<body>
+    <h1>Trabalhando com números</h1>
+    <button onclick="calcular()">Comece</button>
+
+    <section id="resposta">
+        <p>Seu resultado aqui...</p>
+    </section>
+
+    <script>
+        window.alert('Seja bem-vindo!')
+
+        function calcular(){
+            let num = Number(window.prompt('Digite um número!'))
+            let resposta = document.querySelector('section#resposta')
+            resposta.innerHTML = `O dobro de ${num} é ${num*2} e a metade dele é ${num/2}`
+        }
+    </script>
+</body>
+</html>
