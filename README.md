@@ -3,7 +3,6 @@
 Material público para o ensino básico de JavaScript para alunos iniciantes. 
 > Material original: https://github.com/gustavoguanabara/javascript/tree/master
 
-> Direitos
 <table>
   <tr>
     <td align="center">
