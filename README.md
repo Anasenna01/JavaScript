@@ -27,5 +27,5 @@ Material público para o ensino básico de JavaScript para alunos iniciantes.
       </a>
     </td>
   </tr>
-</table>>
+</table>
 
