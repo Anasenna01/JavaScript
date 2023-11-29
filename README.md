@@ -3,7 +3,22 @@
 
 Material público para o ensino básico de JavaScript para alunos iniciantes. 
 > Material original https://github.com/gustavoguanabara/javascript/tree/master
-> Direitos https://github.com/gustavoguanabara
+> Direitos
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/gustavoguanabara">
+        <img src="imagens/mascote.png" width="100px;" alt="Mascote Gustavo Guanabara"/><br>
+        <sub>
+          <b>Gustavo Guanabara</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+>  
 # ✒️ Autores
 
 <table>
