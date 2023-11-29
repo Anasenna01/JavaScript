@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EX 04</title>
+</head>
+<body>
+    <h1>Trabalhando com Dados</h1>
+    <button onclick="botao()">Clique aqui para começar</button>
+    <section id="resultado">
+        <p>Aqui vai aparecer o resultado...</p>
+    </section>
+    <script>
+        function botao(){
+            let nome = window.prompt('Qual é o seu nome?')
+            let resposta = window.document.getElementById('resultado')
+            resposta.innerHTML = `Olá ${nome}! É um grande prazer te conhecer :D`
+        }
+    </script>
+</body>
+</html>
