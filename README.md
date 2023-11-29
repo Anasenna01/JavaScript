@@ -1,4 +1,4 @@
-# Exercicios de JavaScript - Curso em video
+# Exercícios de JavaScript - Curso em video
 
 Material público para o ensino básico de JavaScript para alunos iniciantes. 
 > Material original: https://github.com/gustavoguanabara/javascript/tree/master
